@@ -1,1 +1,53 @@
-/* Your CSS here. */
+body {
+  margin: 0;
+  background-color: white;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.profile-card {
+  width: 850px;
+  height: 650px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #D9CBB7;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 30px;
+  border: 6px solid #C1A1A1;
+}
+
+h1 {
+  font-size: 42px;
+  margin: 25px 0 15px;
+}
+
+.email {
+  font-style: italic;
+}
+
+.email a {
+  color: black;
+}
+
+.github {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.github a {
+  color: black;
+}
+
+.bio {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
